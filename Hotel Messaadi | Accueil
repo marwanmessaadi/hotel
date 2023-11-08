@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>Hotel Messaadi | Accueil </title>
+<style>
+body{
+background-image:url(https://images7.alphacoders.com/408/408645.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.Home a{
+font-size:30px;
+color: rgb(255, 255, 255);
+position: relative;left:800px;bottom:122px;
+text-decoration: none;
+padding:2Opx 85px;
+display:inline-block;
+}
+.pravicy a{
+font-size:30px;
+color: rgb(255, 255, 255);
+position:relative;left:950px;bottom:156px;
+text-decoration: none;
+}
+.menu a{
+font-size:30px;
+color: rgb(255, 255, 255);
+position:relative;left:1100px;bottom:190px;
+text-decoration: none;
+}
+h1{
+font-size:50px;
+color:rgb(255, 184, 4);
+font-family: cursive;
+position:relative;bottom:32px;
+}
+fieldset{
+height: 70px;
+background-color: rgba(0, 0, 0, 0.582);
+border-radius:20px;
+}
+::placeholder{
+font-size:22px;
+color: rgb(0, 0, 0);
+text-align: center;
+}
+form{
+width:400px;
+margin: auto;
+border:2px solid white;
+border-radius:20px;
+padding:90px 30px;
+border-color: rgba(255, 255, 255);
+background-color: rgba(0, 0, 0, 0.475);
+position: relative;top:30px;
+}
+input{
+border:0px solid black;
+font-size:30px;
+border-radius:20px;
+background-color: rgba(255, 183, 1, 0.505);
+border-color: rgba(255, 0, 0, 0.416);
+}
+.go a{
+text-decoration: none;
+size: 20px;
+border:1px solid black;
+border-radius:20px;
+padding: 10px 10px;
+color:white;
+background-color: rgb(119, 119, 119);
+position: relative;left:300px;top:50px;
+}
+</style>
+</head>
+<body>
+<header>
+<fieldset>
+<h1>
+MW   five  &#9733 &#9733 &#9733 &#9733 &#9733
+</h1>
+<div class="Home"><a href="#top">Home</a><br>
+</div>
+<div class="pravicy"><a href="#top">pravicy</a><br>
+</div>
+<div class="menu"><a href="#top">menu</a>
+</div>
+</fieldset>
+</header>
+<form action="https://www.google.com" method="post">
+<div class="user">
+<input type="email" placeholder=" example@em.ma" id="email"><br><br>
+<input type="text" placeholder=" full name" id="t1"><br><br>
+<input type="text" placeholder=" sexe" id="t2"><br><br>
+<input type="text" placeholder=" place" id="t3"><br><br>
+</div>
+<div class="go"><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj83pnLu5SCAxWFCwYAHcyCCVoYABACGgJ3cw&gclid=CjwKCAjwnOipBhBQEiwACyGLuhV396M1mRB2gWhb4J6SkHTZa-nywW4xbo197mFL5QJr2bX34QPUvRoC5VIQAvD_BwE&ohost=www.google.com&cid=CAESVuD2xipwS7HUGMB4IRQlNg-f22AAXKurfyJq7OY6Cji7dLR6Ygo73vvUd1oxhROIeLyWHLR4llOiDeJviygSXhoRJuiRxFxBCT_EM0B4zTU0EEhz7lG9&sig=AOD64_3PlSHquCfQ3IGNFkKGmC1zHsj4hQ&q&adurl&ved=2ahUKEwj075LLu5SCAxXWTaQEHX53DUQQ0Qx6BAgJEAM" target="_blank" >let's Go ></a></div>
+</form>
+</body>
+</html>
